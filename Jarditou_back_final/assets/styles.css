@@ -1,0 +1,51 @@
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*header site: logo à gauche et slogan recentré*/
+#logo {
+    width: 20%;
+    height: auto;
+    float: left;
+}
+#slogan {
+    font-size: 2em;
+    line-height: 50px;
+    position: relative; left: 30%;
+}
+/*menus header et footer blanc sur noir, liens alignés horizontalement*/
+nav {
+    line-height: 60px;
+    background-color: #000000;
+}
+li {
+    display: inline;
+}
+.lignenav{
+    color: white;
+
+/*body en deux colonnes: colonne gauche, colonne droite*/
+}
+.conteneur {
+    display: flex;
+    flex-direction: row;
+}
+.colonnegauche {
+    width: 70%;
+    justify-content: start;
+}
+.colonnedroite {
+    width: 30%;
+    background-color: rgb(173, 165, 165) ;
+}
+
+/*tableau: taille image, alignement horizontal*/
+.imgtableau {
+    width: 15%;
+    height: auto;
+}
+table {
+    text-align: left;
+}
